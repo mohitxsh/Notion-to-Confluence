@@ -37,7 +37,7 @@ Working:
 
 
 ![Webapp-toast](https://github.com/mohitxsh/Notion-to-Confluence/blob/main/assets/webapp_toast.png)
-*Sucess toast after clicking the button and data is successfully posted on my Confluence space*
+*Success toast after clicking the button and data is successfully posted on my Confluence space*
 
 
 
