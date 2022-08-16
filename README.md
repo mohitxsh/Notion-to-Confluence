@@ -21,6 +21,7 @@
 ## About The Project
 
 A webapp built using react and express to convert Notion pages directly to Atlassian Confluence.
+We can edit the Notion page content before converting it to a Confluence page.
 
 Notion and Confluence both provide a rich ecosystem to maintain documentation and workspaces for organisations. When companies scale, many of them decide to migrate their workspaces from notion to confluence because of the added benefits that come with it. This tool automates this process.
 
