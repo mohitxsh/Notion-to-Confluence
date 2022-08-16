@@ -28,10 +28,15 @@ Working:
 ![Notion-ideas](https://github.com/mohitxsh/Notion-to-Confluence/blob/main/assets/notion_ideas.png)
 *My notion page which I want to convert to Confluence page*
 
+
 ![Webapp-ideas](https://github.com/mohitxsh/Notion-to-Confluence/blob/main/assets/webapp_ideas.png)
 *Reading the notion page contents on a rich text editor*
+
+
 ![Webapp-toast](https://github.com/mohitxsh/Notion-to-Confluence/blob/main/assets/webapp_toast.png)
 *Sucess toast after clicking the button and data is successfully posted on my Confluence space*
+
+
 ![Confluence-ideas](https://github.com/mohitxsh/Notion-to-Confluence/blob/main/assets/confluence_ideas.png)
 *Resultant Confluence page*
 
