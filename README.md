@@ -22,7 +22,7 @@
 
 A webapp built using react and express to convert Notion pages directly to Atlassian Confluence.
 
-Notion and Confluence both provide a rich ecosystem to maintain documentation and workspaces for organisations. When companies scale, many of them decide to migrate their workspaces from notion to confluence because of the added benefits that come with it. This tools automates this process.
+Notion and Confluence both provide a rich ecosystem to maintain documentation and workspaces for organisations. When companies scale, many of them decide to migrate their workspaces from notion to confluence because of the added benefits that come with it. This tool automates this process.
 
 Working:
 
