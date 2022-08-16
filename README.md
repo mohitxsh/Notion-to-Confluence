@@ -32,7 +32,7 @@ Working:
 
 
 ![Webapp-ideas](https://github.com/mohitxsh/Notion-to-Confluence/blob/main/assets/webapp_ideas.png)
-*Reading the notion page contents on a rich text editor by searching the notion page using it's page_id*
+*Reading the notion page content on a rich text editor by searching the notion page using its page_id*
 
 
 
