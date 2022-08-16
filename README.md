@@ -59,7 +59,7 @@ Working:
 
 1. Have node JS installed.
 2. In the project root directory, run `npm install`
-3. Next run `npm run client-install`
+3. Next run `npm run clientinstall`
 
 **Steps to Run:**
 
