@@ -27,7 +27,7 @@ Notion and Confluence both provide a rich ecosystem to maintain documentation an
 Working:
 ![Notion-ideas](https://github.com/mohitxsh/Notion-to-Confluence/blob/main/assets/notion_ideas.png)
 *My notion page which I want to convert to Confluence page*
-_
+
 ![Webapp-ideas](https://github.com/mohitxsh/Notion-to-Confluence/blob/main/assets/webapp_ideas.png)
 *Reading the notion page contents on a rich text editor*
 ![Webapp-toast](https://github.com/mohitxsh/Notion-to-Confluence/blob/main/assets/webapp_toast.png)
