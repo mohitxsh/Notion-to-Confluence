@@ -25,16 +25,20 @@ A webapp built using react and express to convert Notion pages directly to Atlas
 Notion and Confluence both provide a rich ecosystem to maintain documentation and workspaces for organisations. When companies scale, many of them decide to migrate their workspaces from notion to confluence because of the added benefits that come with it. This tools automates this process.
 
 Working:
+
 ![Notion-ideas](https://github.com/mohitxsh/Notion-to-Confluence/blob/main/assets/notion_ideas.png)
 *My notion page which I want to convert to Confluence page*
+
 
 
 ![Webapp-ideas](https://github.com/mohitxsh/Notion-to-Confluence/blob/main/assets/webapp_ideas.png)
 *Reading the notion page contents on a rich text editor*
 
 
+
 ![Webapp-toast](https://github.com/mohitxsh/Notion-to-Confluence/blob/main/assets/webapp_toast.png)
 *Sucess toast after clicking the button and data is successfully posted on my Confluence space*
+
 
 
 ![Confluence-ideas](https://github.com/mohitxsh/Notion-to-Confluence/blob/main/assets/confluence_ideas.png)
