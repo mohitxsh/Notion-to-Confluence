@@ -19,6 +19,9 @@
 }
 
 .searchButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-width: 67px;
   width: 25%;
   height: 36px;
@@ -30,6 +33,9 @@
   border-radius: 0 5px 5px 0;
   cursor: pointer;
   font-size: 14px;
+  &:hover{
+    background-color: #0099ad;
+  }
 }
 
 .wrap{
@@ -39,4 +45,18 @@
   top: 8%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.loader {
+  border: 2px solid hwb(187 0% 46%); /* Light grey */
+  border-top: 2px solid #fff; /* Blue */
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }

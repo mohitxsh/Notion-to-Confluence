@@ -7,7 +7,8 @@ function App() {
   const [pageId, setPageId] = useState('');
   const [pageTitle, setPageTitle] = useState('');
   const [pageContent, setPageContent] = useState();
-
+  const [loading, setLoading] = useState(false);
+  
   // pageId: 'd7428927-e66a-436e-ae34-f3eb475ed13b';
 
   useEffect(() => {
@@ -15,6 +16,7 @@ function App() {
     .then(([first, second]) => {
       setPageTitle(first);
       setPageContent(second.results);
+      setLoading(false);
     })
      // eslint-disable-next-line
   }, [pageId])
@@ -22,7 +24,8 @@ function App() {
   const getQueryFromBackend = async () => {
     const response = await fetch(`http://localhost:5000/query/${pageId}`)
     const searchedQuery = await response.json()
-    const title = (searchedQuery.child_page.title);
+    const type = (searchedQuery.type);
+    const title = (searchedQuery[type].title);
     return title;
   }
 
@@ -33,6 +36,7 @@ function App() {
   }
 
   const onSearchClick = () => {
+    setLoading(true);
     setPageId(searchTerm);
   }
 
@@ -52,7 +56,7 @@ function App() {
           onChange={onInputChange}
         />
         <button type="submit" className="searchButton" onClick={onSearchClick}>
-          SEARCH
+          {loading ? <div className="loader" /> : "SEARCH"}
         </button>
         </div>
       </div>
